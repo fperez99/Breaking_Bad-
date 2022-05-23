@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Breaking Bad</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/7ea25b25fa.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="web">
+      <a href="MenuPrincipal.html"
+        ><img class="logo" src="img/LogoBB.png" alt="Logo"
+      /></a>
+      <div class="menu">
+        <!--<a href="MenuPrincipal.html">Pagina Principal</a>-->
+        <a href="personajes.html">Personajes</a>
+        <a href="#mi">FAQ</a>
+      </div>
+      <p class="usuario">Usuario</p>
+    </header>
+
+    <header class="movil">
+      <img class="logo" src="img/LogoBB.png" alt="Logo" />
+      <input type="checkbox" id="menu" />
+      <label for="menu"> <i class="fa-solid fa-bars"></i></label>
+      <ul>
+        <li>Usuario</li>
+        <a href="MenuPrincipal.html"><li>Página Principal</li></a>
+        <a href="personajes.html"><li>Personajes</li></a>
+        <a href="#mi">FAQ</a>
+      </ul>
+    </header>
+    <main class="todo">
+      <div id="mi" class="modal1">
+        <div class="modal-contenido">
+          <a class="cerrar" href="index.html">X</a>
+          <div class="panel">
+            <p>Formulario de Contacto</p>
+          </div>
+
+          <label>
+            <input type="text" name="nombre" placeholder="Tu Nombre" />
+          </label>
+          <label>
+            <input type="text" name="apellidos" placeholder="Tu email" />
+          </label>
+          <label>
+            <input type="text" name="correo" placeholder="Asunto" />
+          </label>
+          <label>
+            <textarea
+              name=""
+              id=""
+              cols="26"
+              rows="8"
+              placeholder=" Escriba su mensaje aqui"
+            ></textarea>
+          </label>
+
+          <a href=""><button class="botonmodal">Enviar</button></a>
+        </div>
+      </div>
+      <section class="personajes">
+        <a href="personaje.html"
+          ><img class="img" src="img/personaje1.png"
+        /></a>
+        <a href="personaje.html"><p class="walter">Walter White</p></a>
+      </section>
+      <section class="personajes">
+        <img class="img" src="img/personaje2.png" />
+        <p class="jesse">Jesse Pinkman</p>
+      </section>
+      <section class="personajes">
+        <img class="img" src="img/personaje3.png" />
+        <p class="skyler">Skyler modified</p>
+      </section>
+      <section class="personajes">
+        <img class="img" src="img/personaje4.png" />
+        <p class="saul">Saul Goodman</p>
+      </section>
+      <section class="personajes">
+        <img class="img" src="img/personaje5.png" />
+        <p class="jane">Jane Margolis</p>
+      </section>
+      <section class="personajes">
+        <img class="img" src="img/personaje6.png" />
+        <p class="mike">Mike Ehrmantraut</p>
+      </section>
+    </main>
+
+    <footer>
+      <main class="iconos">
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-facebook-f"></i>
+      </main>
+      <i class="contacto">Contacto</i>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Breaking Bad</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/7ea25b25fa.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="web">
+      <a href="MenuPrincipal.html"
+        ><img class="logo" src="img/LogoBB.png" alt="Logo"
+      /></a>
+      <div class="menu">
+        <!--<a href="MenuPrincipal.html">Pagina Principal</a>-->
+        <a href="personajes.html">Personajes</a>
+        <a href="#mi">FAQ</a>
+      </div>
+      <p class="usuario">Usuario</p>
+    </header>
+
+    <header class="movil">
+      <img class="logo" src="img/LogoBB.png" alt="Logo" />
+      <input type="checkbox" id="menu" />
+      <label for="menu"> <i class="fa-solid fa-bars"></i></label>
+      <ul>
+        <li>Usuario</li>
+        <a href="MenuPrincipal.html"><li>Página Principal</li></a>
+        <a href="personajes.html"><li>Personajes</li></a>
+        <a href="#mi"><li>FAQ</li></a>
+      </ul>
+    </header>
+
+    <main class="cont">
+      <div id="mi" class="modal1">
+        <div class="modal-contenido">
+          <a class="cerrar" href="index.html">X</a>
+          <div class="panel">
+            <p>Formulario de Contacto</p>
+          </div>
+
+          <label>
+            <input type="text" name="nombre" placeholder="Tu Nombre" />
+          </label>
+          <label>
+            <input type="text" name="apellidos" placeholder="Tu email" />
+          </label>
+          <label>
+            <input type="text" name="correo" placeholder="Asunto" />
+          </label>
+          <label>
+            <textarea
+              name=""
+              id=""
+              cols="26"
+              rows="8"
+              placeholder=" Escriba su mensaje aqui"
+            ></textarea>
+          </label>
+
+          <a href=""><button class="botonmodal">Enviar</button></a>
+        </div>
+      </div>
+      <section class="ordenar">
+        <section class="pers">
+          <img class="imgg" src="img/personaje1.png" />
+          <p class="walterr">Walter White</p>
+        </section>
+        <section class="biografia">
+          <p>Nombre: Walter White</p>
+          <p>Fecha de Nacimiento: 20/03/1965</p>
+          <p>Papel en la serie: Actor Principal</p>
+          <p>Capitulos en los que aparece: Toda la serie</p>
+          <p>Nickname: Walter</p>
+        </section>
+      </section>
+    </main>
+
+    <footer>
+      <main class="iconos">
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-facebook-f"></i>
+      </main>
+      <i class="contacto">Contacto</i>
+    </footer>
+  </body>
+</html>
